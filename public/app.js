@@ -10,7 +10,6 @@ function fetchMovieData(movieName) {
         .then(data => {
             displayResults(data);
         })
-    // .catch(error => console.error('Error:', error));
 }
 
 function displayResults(results) {
